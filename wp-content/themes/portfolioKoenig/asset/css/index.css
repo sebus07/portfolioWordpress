@@ -2,6 +2,11 @@
 body {
     background-image: url('../img/bg-main-light-1440w.jpg');
     background-repeat: no-repeat;
+  
+  }
+
+  p{
+    font-family: monser;
   }
 
 .wpforms-field-container{
@@ -17,3 +22,6 @@ body {
 }
   /* Autres styles spécifiques pour smartphones */
 }
+
+
+
