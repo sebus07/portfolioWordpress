@@ -1,0 +1,19 @@
+
+body {
+    background-image: url('../img/bg-main-light-1440w.jpg');
+    background-repeat: no-repeat;
+  }
+
+.wpforms-field-container{
+    width: 100px important;
+  }
+
+
+
+@media only screen and (max-width: 767px) {
+  /* Vos styles pour smartphones vont ici */
+  .elementor-648 .elementor-element.elementor-element-21b39248:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-648 .elementor-element.elementor-element-21b39248 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #ffffff00;
+}
+  /* Autres styles spécifiques pour smartphones */
+}
