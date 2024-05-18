@@ -14,7 +14,6 @@ function portfolioKoenig_enqueue_assets()
 
 add_action('wp_enqueue_scripts', 'portfolioKoenig_enqueue_assets');
 
-
 function display_github_repos() {
     return '<div id="github-repos"></div>';
 }
@@ -37,6 +36,7 @@ function get_github_repo_commits_info($username, $repo) {
         'last_commit' => $last_commit_date
     );
 }
+
 function get_github_repo_info($username, $repo) {
     $api_url = "https://api.github.com/repos/{$username}/{$repo}";
     $response = wp_remote_get($api_url);
