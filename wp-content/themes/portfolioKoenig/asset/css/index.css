@@ -1,0 +1,58 @@
+
+body {
+    background-image: url('../img/bg-main-light-1440w.jpg');
+    background-repeat: no-repeat;
+    
+  }
+
+.wpforms-field-container{
+    width: 100px important;
+  }
+
+
+@media only screen and (max-width: 767px) {
+  .elementor-648 .elementor-element.elementor-element-21b39248:not(.elementor-motion-effects-element-type-background) > .elementor-widget-wrap, .elementor-648 .elementor-element.elementor-element-21b39248 > .elementor-widget-wrap > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    background-color: #ffffff00;
+}
+}
+
+
+/* bouton phone a enlever*/
+.wpr-pc-btn-icon{
+display: none;
+}
+
+.elementor-103 .elementor-element.elementor-element-473a037c .wpr-pc-btn{
+  background-color:  rgba(0, 0, 0, 0) !important;
+}
+
+/*pour gitHub*/
+#github-repo {
+  font-family: Arial, sans-serif;
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 8px;
+}
+
+#github-repo h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+#github-repo p {
+  font-size: 16px;
+  margin: 5px 0;
+}
+
+#github-repo a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+#github-repo a:hover {
+  text-decoration: underline;
+}
+
+
